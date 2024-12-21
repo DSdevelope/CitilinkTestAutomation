@@ -38,7 +38,7 @@ def test_buy_product():
     mp.select_phones_catalog()  # Переходим в каталог телефонов
 
     pp.select_product_by_filters()  # Фильтруем товары
-    pp.verify_phone_parameters()
+    pp.verify_phone_parameters()  # Проверяем параметры товара
 
     product_name = dp.get_product_name()  # Запоминаем название товара
     product_price = dp.get_product_price()  # Запоминаем цену товара

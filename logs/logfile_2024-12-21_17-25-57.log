@@ -1,0 +1,99 @@
+
+--------------------------------------------------
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2024-12-21 17:26:02.065394
+Start name method: LoginPage: authorization
+
+Click Register Button
+Click Enter With Password Button
+Input Login 'dstoyanov@list.ru'
+Input Password 'stepik2024'
+Click Submit Button
+
+End time: 2024-12-21 17:26:11.703005
+End name method: LoginPage: authorization
+URL: https://www.citilink.ru/?_action=login&_success_login=1
+--------------------------------------------------
+
+Click Go To Basket Button
+Product Deleted
+Basket Is Empty
+
+--------------------------------------------------
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2024-12-21 17:27:11.584885
+Start name method: MainPage: select_phones_catalog
+
+Click Catalog Button
+Click Phones Link Button
+Click Samsung Phones Link Button
+
+End time: 2024-12-21 17:27:17.045847
+End name method: MainPage: select_phones_catalog
+URL: https://www.citilink.ru/catalog/smartfony/SAMSUNG/
+--------------------------------------------------
+
+
+--------------------------------------------------
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2024-12-21 17:27:19.061637
+Start name method: ProductsPage: select_product_by_filters
+
+Enter 10000 in Min Price Filter
+Enter 65000 in Max Price Filter
+Select Discount filter 10%
+Select Memory Filter 256
+Select Color Filter 'Голубой'
+Select Frequency Filter 2 Ghz
+
+End time: 2024-12-21 17:27:32.829581
+End name method: ProductsPage: select_product_by_filters
+URL: https://www.citilink.ru/catalog/smartfony/SAMSUNG/?pf=discount.price2_10%2Crating.any%2Csamsung%2C23178_214256d1gb&f=discount.price2_10%2Crating.any%2Csamsung%2C23178_214256d1gb%2C23179_214goluboy&r=price_filter_group_id%3A10000-65000
+--------------------------------------------------
+
+
+--------------------------------------------------
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2024-12-21 17:27:32.829581
+Start name method: ProductsPage: verify_phone_parameters
+
+Price Sort Button Pressed
+Price Sort Button Pressed
+Price Range Assertion OK!
+Discount Value Assertion OK!
+Click Product Name Link
+
+End time: 2024-12-21 17:27:42.224305
+End name method: ProductsPage: verify_phone_parameters
+URL: https://www.citilink.ru/catalog/smartfony/SAMSUNG/?pf=discount.price2_10%2Crating.any%2Csamsung%2C23178_214256d1gb&f=discount.price2_10%2Crating.any%2Csamsung%2C23178_214256d1gb%2C23179_214goluboy&r=price_filter_group_id%3A10000-65000
+--------------------------------------------------
+
+
+--------------------------------------------------
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2024-12-21 17:27:44.362210
+Start name method: ProductDetailPage: buy_product
+
+Click Add to Basket Button
+Click Close Popup Button
+Click Go To Basket Button
+
+End time: 2024-12-21 17:28:26.594563
+End name method: ProductDetailPage: buy_product
+URL: https://www.citilink.ru/product/smartfon-samsung-galaxy-a35-5g-sm-a356e-256gb-8gb-goluboi-3g-4g-6-6-10-2019266/
+--------------------------------------------------
+
+
+--------------------------------------------------
+Test: test_buy_product.py::test_buy_product (call)
+Start time: 2024-12-21 17:28:26.594563
+Start name method: BasketPage: get_and_verify_info
+
+Product Name Assertion OK!
+Product Price Assertion OK!
+
+End time: 2024-12-21 17:28:26.813731
+End name method: BasketPage: get_and_verify_info
+URL: https://www.citilink.ru/order/
+--------------------------------------------------
+
